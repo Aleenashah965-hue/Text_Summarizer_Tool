@@ -46,7 +46,7 @@ https://aleenashah965-hue-text-summarizer-tool-app-jcobwa.streamlit.app/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/Aleenashah965-hue/Text_Summarizer_Tool.git
+ https://github.com/Aleenashah965-hue/Text_Summarizer_Tool.git
 ```
 
 Install the required libraries:
