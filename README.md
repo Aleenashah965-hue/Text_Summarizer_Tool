@@ -38,9 +38,10 @@ The application splits large text into smaller chunks using LangChain's Recursiv
 ## 📦 Installation
 
 Clone the repository:
+🌐 Live Demo
+https://aleenashah965-hue-text-summarizer-tool-app-jcobwa.streamlit.app/
 
 ```bash
-git clone
 https://github.com/Aleenashah965-hue/Text_Summarizer_Tool.git
 ```
 
