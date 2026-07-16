@@ -43,22 +43,14 @@ Clone the repository:
 git clone https://github.com/Aleenashah965-hue/Text_Summarizer_Tool.git
 ```
 
-Move into the project folder:
-
-```bash
-cd Text_Summarizer_Tool
-```
-
 Install the required libraries:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-Create a `.env` file and add your Gemini API key:
-
 ```env
-GOOGLE_API_KEY=YOUR_API_KEY
+GOOGLE_API_KEY=API_KEY
 ```
 
 Run the application:
