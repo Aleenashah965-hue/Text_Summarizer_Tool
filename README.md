@@ -40,7 +40,8 @@ The application splits large text into smaller chunks using LangChain's Recursiv
 Clone the repository:
 
 ```bash
-git clone https://github.com/Aleenashah965-hue/Text_Summarizer_Tool.git
+git clone
+https://github.com/Aleenashah965-hue/Text_Summarizer_Tool.git
 ```
 
 Install the required libraries:
