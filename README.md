@@ -1,65 +1,74 @@
 # 📄 AI Text Summarizer Tool
 
-## 📌 Project Overview
-
-The AI Text Summarizer Tool is a Streamlit-based web application that summarizes long articles or documents into concise and meaningful summaries using Google's Gemini API and LangChain.
-
-The application splits large text into smaller chunks using LangChain's RecursiveCharacterTextSplitter, processes each chunk with Gemini AI, and combines the results into a final summary.
+An AI-powered Text Summarizer built with **Streamlit**, **LangChain**, and **Google Gemini API**. This application summarizes long articles or documents into short, meaningful summaries.
 
 ---
 
-## 🚀 Features
+# 📌 Project Overview
 
-* 🤖 AI-powered text summarization using Gemini API
-* 📄 Supports long articles and documents
-* ✂️ LangChain Text Splitter for handling large text
-* 📏 Three summary modes:
-
-  * Short
-  * Medium
-  * Detailed
-* 📊 Word Count
-* 🔠 Character Count
-* 📥 Download Summary as TXT
-* ⚡ User-friendly Streamlit interface
+This project uses LangChain's RecursiveCharacterTextSplitter to divide long text into smaller chunks. Each chunk is summarized using the Gemini AI model, and all summaries are combined into one final summary.
 
 ---
 
-## 🛠️ Technologies Used
+# 🚀 Features
 
-* Python
-* Streamlit
-* Google Gemini API
-* LangChain
-* Python Dotenv
+- 📄 Summarize long articles and documents
+- 🤖 Google Gemini AI Integration
+- 🔗 LangChain Text Splitter
+- 📏 Multiple Summary Lengths
+  - Short
+  - Medium
+  - Detailed
+- 📊 Word Count
+- 🔠 Character Count
+- 📥 Download Summary
+- 🎨 Streamlit User Interface
 
 ---
 
-## 📦 Installation
+# 🛠 Technologies Used
 
-## 🌐 Live Demo
+- Python
+- Streamlit
+- LangChain
+- Google Gemini API
+- python-dotenv
+
+---
+
+# 🌐 Live Demo
 
 https://aleenashah965-hue-text-summarizer-tool-app-jcobwa.streamlit.app/
 
-## 🚀 Installation
+---
 
-### 1. Clone the Repository
+# 🚀 Installation
+
+## 1. Clone the Repository
 
 ```bash
- https://github.com/Aleenashah965-hue/Text_Summarizer_Tool.git
+git clone https://github.com/Aleenashah965-hue/Text_Summarizer_Tool.git
 ```
 
-Install the required libraries:
+## 2. Navigate to the Project Folder
+
+```bash
+cd Text_Summarizer_Tool
+```
+
+## 3. Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
+## 4. Create a .env File
+
 ```env
-GOOGLE_API_KEY=API_KEY
+GOOGLE_API_KEY=GEMINI_API_KEY
 ```
 
-Run the application:
+## 5. Run the Application
 
 ```bash
 streamlit run app.py
@@ -67,44 +76,35 @@ streamlit run app.py
 
 ---
 
-## 📷 How to Use
+# 📂 Project Structure
 
-1. Launch the application.
-2. Paste a long article or document.
-3. Select the AI model.
-4. Choose the summary length (Short, Medium, or Detailed).
-5. Click **Generate Summary**.
-6. View the generated summary.
-7. Download the summary as a text file if needed.
-
----
-
-## 📁 Project Structure
-
-```
+```text
 Text_Summarizer_Tool/
 │
 ├── app.py
 ├── requirements.txt
-├── .env
+├── README.md
 ├── .gitignore
-└── README.md
+└── .env
 ```
 
 ---
 
-## 🎯 Purpose
+# 📷 Screenshot
 
-This project demonstrates how to use Generative AI and LangChain to summarize long text efficiently. It helps users save time by extracting the most important information from lengthy documents.
+_Add project screenshot._
 
 ---
 
-## 👩‍💻 Developed By
+# 👩‍💻 Author
 
 **Aleena Shah**
 
-BS Computer Science
-
+BS Computer Science Student  
 UET Mardan
 
-AlgoHub Generative AI Internship – Week 3
+---
+
+# 📄 License
+
+This project is developed for learning purposes as part of the **AlgoHub Generative AI Internship (Week 3 Project)**.
