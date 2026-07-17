@@ -42,6 +42,13 @@ https://aleenashah965-hue-text-summarizer-tool-app-jcobwa.streamlit.app/
 
 ---
 
+---
+# Google Drive
+
+https://drive.google.com/drive/folders/14VCDkTeMzaYeTiQ1joucBuZ2erRUwoij?usp=drive_link
+
+---
+
 # 🚀 Installation
 
 ## 1. Clone the Repository
